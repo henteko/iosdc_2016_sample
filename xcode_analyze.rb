@@ -38,6 +38,6 @@ end
 target_project = target_project_setting(target_scheme)
 target_build_configuration = target_build_configuration(target_project)
 
-puts 'Product name: ' + target_project.product_name
-puts 'Bundle Identifier: ' + target_build_configuration.build_settings['PRODUCT_BUNDLE_IDENTIFIER']
-puts 'Provisioning Profile: ' + target_build_configuration.build_settings['PROVISIONING_PROFILE']
+puts "Product name: #{target_project.product_name}"
+puts "Bundle Identifier: #{target_build_configuration.build_settings['PRODUCT_BUNDLE_IDENTIFIER']}"
+puts "Provisioning Profile: #{target_build_configuration.build_settings['PROVISIONING_PROFILE']}"

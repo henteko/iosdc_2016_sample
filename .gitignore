@@ -53,3 +53,6 @@ build-iPhoneSimulator/
 
 .idea/
 *.iml
+
+*.app.dSYM.zip
+*.ipa
